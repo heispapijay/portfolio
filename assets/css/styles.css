@@ -169,6 +169,10 @@ img {
   font-weight: var(--font-medium);
 }
 
+.nav_logo:hover{
+  color: var(--first-color);
+}
+
 /* show menu */
 
 

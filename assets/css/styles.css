@@ -119,6 +119,20 @@ body.dark-theme {
   color: crimson;
   font-weight: var(--font-medium);
 }
+
+.button {
+  display: inline-block;
+  background-color: crimson;
+  color: #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover{
+  background-color: rgb(175, 16, 48);
+
+}
 /*========== 
     Color changes in some parts of 
     the website, in light theme
@@ -339,7 +353,7 @@ body.dark-theme {
 }
 
 .home__social-link:hover {
-  color: var(--title-color);
+  color: rgb(175, 16, 48);
 }
 
 .home__info {
@@ -365,10 +379,10 @@ body.dark-theme {
   padding-right: 4rem;
 }
 
-.home__info-number {
+/* .home__info-number {
   font-size: var(--h1-font-size);
   font-weight: var(--font-semi-bold);
-}
+} */
 
 /*=============== SKILLS ===============*/
 .skills__container {
@@ -752,7 +766,9 @@ body.dark-theme {
   column-gap: .5rem;
   color: var(--title-color);
   font-size: var(--smaller-font-size);
+
 }
+
 
 .contact__button i {
   font-size: 1rem;

@@ -7,7 +7,7 @@ const navMenu = document.getElementById('nav-menu'),
 /* Validate if constant exists */
 if(navToggler){
     navToggler.addEventListener('click', () =>{
-        navMenu.classList.add('show-menu');
+        navMenu.classList.add('show-men');
     })
 }
 

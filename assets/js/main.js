@@ -1,9 +1,9 @@
-/*=============== SHOW MENU ===============*/
+/* SHOW MENU */
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
 
-/*===== MENU SHOW =====*/
+/* MENU SHOW */
 /* Validate if constant exists */
 if (navToggle) {
     navToggle.addEventListener('click', () => {
@@ -11,7 +11,7 @@ if (navToggle) {
     })
 }
 
-/*===== MENU HIDDEN =====*/
+/* MENU HIDDEN */
 /* Validate if constant exists */
 if (navClose) {
     navClose.addEventListener('click', () => {
@@ -19,7 +19,7 @@ if (navClose) {
     })
 }
 
-/*=============== REMOVE MENU MOBILE ===============*/
+/* REMOVE MENU MOBILE */
 const navLink = document.querySelectorAll('.nav__link')
 
 const linkAction = () => {
@@ -30,7 +30,7 @@ const linkAction = () => {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
-/*=============== SWIPER PROJECTS ===============*/
+/* SWIPER PROJECTS */
 let swiperProjects = new Swiper(".projects__container", {
     loop: true,
     spaceBetween: 24,
@@ -51,7 +51,7 @@ let swiperProjects = new Swiper(".projects__container", {
     },
 });
 
-/*=============== SWIPER TESTIMONIAL ===============*/
+/* SWIPER TESTIMONIAL */
 let swiperTestimonial = new Swiper(".testimonial__container", {
     grabCursor: true,
     navigation: {
@@ -63,20 +63,11 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     },
 });
 
-/*=============== EMAIL JS ===============*/
+/* SCROLL SECTIONS ACTIVE LINK */
 
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+/* SHOW SCROLL UP */
 
 
-/*=============== SHOW SCROLL UP ===============*/
-
-
-/*=============== DARK LIGHT THEME ===============*/
-
-
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+/* SCROLL REVEAL ANIMATION */
 

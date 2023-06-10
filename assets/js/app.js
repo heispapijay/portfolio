@@ -1,9 +1,9 @@
-/*==================== MENU SHOW Y HIDDEN ====================*/
+/* MENU SHOW Y HIDDEN */
 const navMenu = document.getElementById('nav-menu'),
         navToggler = document.getElementById('nav-toggler'),
         navClose = document.getElementById('nav-closer')
 
-/*===== MENU SHOW =====*/
+/* MENU SHOW */
 /* Validate if constant exists */
 if(navToggler){
     navToggler.addEventListener('click', () =>{
@@ -11,7 +11,7 @@ if(navToggler){
     })
 }
 
-/*===== MENU HIDDEN =====*/
+/* MENU HIDDEN */
 /* Validate if constant exists */
 if(navClose){
     navClose.addEventListener('click', () =>{
@@ -19,7 +19,7 @@ if(navClose){
     })
 }
 
-/*==================== REMOVE MENU MOBILE ====================*/
+/* REMOVE MENU MOBILE */
 const navLink = document.getElementById('.nav_link')
 
 function linkAction() {
@@ -28,28 +28,28 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== ACCORDION SKILLS ====================*/
+/* ACCORDION SKILLS */
 
 
-/*==================== QUALIFICATION TABS ====================*/
+/* QUALIFICATION TABS */
 
 
-/*==================== SERVICES MODAL ====================*/
+/* SERVICES MODAL */
 
 
-/*==================== PORTFOLIO SWIPER  ====================*/
+/* PORTFOLIO SWIPER  */
 
 
-/*==================== TESTIMONIAL ====================*/
+/* TESTIMONIAL */
 
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+/* SCROLL SECTIONS ACTIVE LINK */
 
 
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
+/* CHANGE BACKGROUND HEADER */ 
 
 
-/*==================== SHOW SCROLL UP ====================*/ 
+/* SHOW SCROLL UP */ 
 
 
-/*==================== DARK LIGHT THEME ====================*/ 
+/* DARK LIGHT THEME */ 

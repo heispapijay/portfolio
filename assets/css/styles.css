@@ -500,6 +500,10 @@ body.dark-theme {
   font-size: var(--small-font-size);
 }
 
+.hspace {
+  padding: 20px;
+}
+
 .projects__button i {
   font-size: 1rem;
   transition: transform .3s;
